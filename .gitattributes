@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+import random
+
+random_number = random.randint(1,4)
+
+luba  = int(input("""Chose a number from 1 to 4
+"""))
+
+if random_number == luba:
+    print ('You win')
+
+else:
+    print('You lose')
